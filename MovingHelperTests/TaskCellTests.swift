@@ -13,7 +13,16 @@ import MovingHelper
 class TaskCellTests: XCTestCase {
     
     func testCheckingCheckboxMarksTaskDone() {
-        let cell = TaskTableViewCell()
+        var testCell: TaskTableViewCell?
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        if let navVC = mainStoryboard.instantiateInitialViewController() as? UINavigationController,
+            listVC = navVC.topViewController as? MasterViewController {
+                let tasks = TaskLoader.loadStockTasks()
+                listVC.createdMovingTasks(tasks)
+                testCell = listVC.tableView(listVC.tableView, cellForRowAtIndexPath: NSIndexPath(forRow: 0,
+                    inSection: 0)) as? TaskTableViewCell
+        
+        let cell = testCell!
         
         //1
         let expectation = expectationWithDescription("Task updated")
@@ -51,5 +60,6 @@ class TaskCellTests: XCTestCase {
         //6
         XCTAssertTrue(cell.checkbox.isChecked, "Checkbox not checked after tap!")
         waitForExpectationsWithTimeout(1, handler: nil)
+    }
     }
 }

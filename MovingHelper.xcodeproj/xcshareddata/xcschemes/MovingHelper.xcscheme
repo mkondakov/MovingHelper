@@ -38,6 +38,16 @@
                ReferencedContainer = "container:MovingHelper.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F3F6F43D1C6237DE00D466EA"
+               BuildableName = "MovingHelperUITests.xctest"
+               BlueprintName = "MovingHelperUITests"
+               ReferencedContainer = "container:MovingHelper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
