@@ -2,4 +2,13 @@ MovingHelper.xcodeproj/xcuserdata
 
 ## Build generated
 build/
+output/
 DerivedData
+
+## Debug folder
+debug/
+
+#certificates
+scripts/certs/enterprise.cer
+scripts/certs/enterprise.p12
+scripts/profile/WildcardDistribution.mobileprovision

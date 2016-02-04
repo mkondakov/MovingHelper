@@ -16,6 +16,8 @@ OUTPUTDIR="$PWD/build/Release-iphoneos"
 
 xcrun -log -sdk iphoneos PackageApplication "$OUTPUTDIR/$APP_NAME.app" -o "$OUTPUTDIR/$APP_NAME.ipa" -sign "$DEVELOPER_NAME" -embed "$PROVISIONING_PROFILE"
 
+zip -r "$OUTPUTDIR/$APP_NAME.app.dSYM.zip" "$OUTPUTDIR/$APP_NAME.app.dSYM"
+
 curl https://rink.hockeyapp.net/api/2/apps/$HOCKEY_APP_ID/app_versions \
   -F status="2" \
   -F notify="0" \
