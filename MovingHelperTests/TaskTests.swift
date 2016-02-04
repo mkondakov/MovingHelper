@@ -74,6 +74,8 @@ class TaskTests: XCTestCase {
   }
   
   func testTaskJSONSerialization() {
+    XCTFail("Task ID did not serialize!")
+    
     let title = "Another test task"
     let dueDate = TaskDueDate.OneMonthAfter
     let testTask = Task(aTitle: title, aDueDate: dueDate)
