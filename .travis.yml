@@ -4,7 +4,6 @@ xcode_project: MovingHelper.xcodeproj
 xcode_scheme: MovingHelper
 xcode_sdk: iphonesimulator9.2
 script:
- - xcodebuild -workspace myWorkspace.xcworkspace -scheme MyProjectTests -sdk iphonesimulator build test
  - xcodebuild -project MovingHelper.xcodeproj -scheme "MovingHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' -derivedDataPath './output' test
 notifications:
   email:
