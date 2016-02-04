@@ -3,8 +3,29 @@ osx_image: xcode7.2
 xcode_project: MovingHelper.xcodeproj
 xcode_scheme: MovingHelper
 xcode_sdk: iphonesimulator9.2
-script:
- - xcodebuild -project MovingHelper.xcodeproj -scheme "MovingHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' -derivedDataPath './output' test
+
 notifications:
   email:
-    - mkondakov83@gmail.com
+  - mkondakov83@gmail.com
+env:
+  global:
+  - APP_NAME="MovingHelper"
+  - 'DEVELOPER_NAME="iPhone Distribution: CORE VALUE SERVICES, LLC"'
+  - PROFILE_NAME="WildcardDistribution"
+  - secure: a88kzIo6wJcdMSlbEnR829JFfYPY+lYQBhBMSuVkNZnSm0R1fIk7WppKqC/jq4iLJnLuOoybgYq4oI4RvBIpnL25TMD9NmUFg80/5FCT4UnPUmHipGmkimSHfzPCZZvRoogFUJYEFKJkGZrjW8o6PV1H3Geyez7HCjssvnvhmVI2v/C76zrgQClaYKrMdEfIIKw6HBXaOMN1fAREVP8nczivyUPEQBFbQx+ZFH9385rEfei7xSC4BWc/+kDy+TWxRpShC/qwLXgUOgVO23FCX/CDTRjBGhoMrDVNOgp/p1+BnUyCfn4anINLuu4/Rtk0Eoz3XD4G25XiYT8BS3gJlloM0g3+aGFCy5xdpKnKTKzB5ctn2o+JQ7hguTo+KgmNa3DxeusgxajQT6WJztlO1HnxGLD/o2a0B3t7bHQMi68jcG0D/t7kxTu650NekwOljnVItCN1qmCNCIhsqk51Ykv9NxDSDFeO+8t1KpJtID9hNhni/hZpDxMCXwAOZUWpp26zeRCOxi4VXJdziwQh1nhMjvYkIwmgdkDgVQRwJcvxPKwODyjSbFsfEZVGdq1rxYxY4UPX9afe/QrXBTvDPmCaQhKF4US5tsxCcUDNw9uajcdetATCSNFZDm88USWLD7LoWm5p+KCsstyQAz9WrYbFK7hvldWtemcnIUHAoiM=
+  - secure: NLx5BWM8cxmtmDDUU3em6C31BL43OwHiKSbnIfwMnxNPSX0L1ZO5BjPlnUMO4OYr0UzjLlYcRjMQJ+z04QuzgmDk44yyNaNvA4OanoPHK9vhtLAB9jH7BfXgJzhCDigLtWNMwYSaCaHJTQq6TJObbbH436xpo/dKii7cvDHZMtDVYdVmSyjI8sMTeHGWnG//NUmNRgLILaNRBV46ZhGAQHsFzub4IE/qSAiZrui2dUt2/5O8EfDvhVpTwod7EOG2rSvBUMvLlexX1Nddtzz1Tu43QaUv9j16JVwiLbrHK5CfDU01KECfC/hMatSZL15hoQHQv8m8tVMjpn9nacohhAA89k29VmdVQ7quqjwb+GXP5M6QeIKbX+WmPFduHgqcQS0XStWsLPdly8dlwQAjW+fG0J4wOcKEFaxh4eXcYIph5RAM1gGO/1HiBmF69YTcLNNgthhVAoxb8tWpcFFxTt2Y37MU4Z1TgAUBQkvCR3GX8wlL8VbMc0TolvFqabd1IOORRzwTDYtZHhEZnJjLXsYItIjOy7GFeLC5XpBk6yxl1D1WqcFAuO78r1xy6PWQ4eucpBrdrzPdpZnik/pO69ZWwr0e6iHqEBUkEBM7LdLouYHeyWcAudQruqWzs12cz6TcPKiYbkKaM6MdG04cqvERBI1jMZerAJgaj/Zak/s=
+  - secure: QAtOUs9lPtxJSZ4Q3C0RRKwNkHBAk+sphZvyMkTXNrlF5xSYP8iBp+0jteqAKTQMM537mQ6Ko30TWeAC88kzMTV47sBqFRF5Z/Hz1KZqoKiaNtFclxaMnuNSxyMMy+9nvz5HAZsJvle1hzBxCJb2p5VLA9WXqMW2nXZhYhw0qitEswx6ciBMVAPN/4GSdW9FmINdNNlZV7vhiWPqPRI16b9BOd3ZCjXFLWcu3uGb8xKVf825i1WuWR5zKDMb/oFrW//u7XS5neVSgEY8D5d15zN7hl5hZu4JBQvxPINbs2ZniGmY9zCqlSUNyR5214VAkZggpYf8ZCMQDxfHslXvn4QUV4vGCZNZumQqnUxXjNlaGqje6XHubpaSBfXPZiQpjwTHQAdahQ7SBiylSgP8ZVeO18B09zrQdYhMJd2RlnqRZU5B6NgKhMlf1wGwsU30uVTW90WzohH7n9DVoNkrK7XKbTkTdN+L5P1mHdLhl+Wfn5tfe7xPpD9+PA6gfUr2NWqPUgw8XlVPWQAVaT/H1vCIrEThavDQgm7jqJk8PCRRMa1595TDqvzksU658slviUDN8KQgc1risHMhhOJO6WBYTT6GMpQfyJ70GB/kd8zwt3DKgKjXUr0hI5G9c6uAmEC5cE+QMAOZa261MBtI+o2wmHNf0Jx3omTQY+GdVQE=
+  - secure: YCCNzadSdUG3nuleZqHJ7oX12BMioSU0NnYsRIb8UVIkZxEjTn8SfAYa/fj0XLhK888VjSI0nQ1j9v7JXT+GCFs4G+HayMHMG9FqoNlspp71jtOWbmdrUcWpAppINMLJyJmZTn3SwitmQJ1xcx2bfL80BaxH7AgQ5/UY+fX7sTV/bl5m5RdMvcXr1reOqP6qoOeMpoMbdGqx9oEaWIXs3RIpRhkFpGzhGcJjr5LCjvtZHy5zV94GQ8Smar4mRjz/O2ZOJQE71YUHAcUnHHb2M3xYAA7IAVTnkZrWpUPJO89Ji4OYsxetTCgHntbL6mLS8mHtfKHrRmZFIWmDW37c/4rK1nt5xrEhEhSU0sJzs7X7nhF8fs6W9rRhXnZaffoURyPiUMSkZFyeU/9yRgqXgMCKURUCRG/MUd4QyU5ctr0hpG9GTV6rxB99kNUT8e70zINdNFZpWBKdGSYFEQq2yNL4cg+/0dR701m0Mu85YChjOTGjpExCMxZx4MewfpUdRvG0fV7NoR/VQBfDmQsjEBi0LgygZUnCkihfwAPrff0uClnlLgJA09MAYixCGKBSpo4+3lzw8qrJ14MFoptJh0m5dur9rP8FsC0yttrtSZmjTcSXEWEsWasFymAsjojTFlpjUCBytXysPBsrraApSfz0hCvKDUdE9MGc4rN9Xrw=
+before_script:
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/WildcardDistribution.mobileprovision.enc -d -a -out scripts/profile/WildcardDistribution.mobileprovision
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/enterprise.cer.enc -d -a -out scripts/certs/enterprise.cer
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/enterprise.p12.enc -d -a -out scripts/certs/enterprise.p12
+  - ./scripts/add-key.sh
+  - ./scripts/update-bundle.sh
+script:
+  - xcodebuild -project MovingHelper.xcodeproj -scheme "MovingHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' -derivedDataPath './output' test
+  - xctool -project MovingHelper.xcodeproj -scheme "MovingHelper" -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO 'CODE_SIGN_RESOURCE_RULES_PATH=$(SDKROOT)/ResourceRules.plist'
+after_success:
+  - ./scripts/sign-and-upload.sh
+after_script:
+  - ./scripts/remove-key.sh

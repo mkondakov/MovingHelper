@@ -1,1 +1,5 @@
 MovingHelper.xcodeproj/xcuserdata
+
+## Build generated
+build/
+DerivedData
