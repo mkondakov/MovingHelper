@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "8a289e671298e2709b51741b813a0eea"
+build_time: [507824172, 224282000]
+inputs:
+  "/Users/mkon/Projects/MovingHelper/MovingHelperUITests/MovingHelperUITests.swift": [507821310, 0]

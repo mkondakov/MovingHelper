@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TaskUpdatedDelegate"
+provides-nominal:
+- "P12MovingHelper19TaskUpdatedDelegate"
+provides-member:
+- ["P12MovingHelper19TaskUpdatedDelegate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Task"
+- "TaskUpdatedDelegate"
+depends-member:
+- ["P12MovingHelper19TaskUpdatedDelegate", "Task"]
+- ["P12MovingHelper19TaskUpdatedDelegate", "taskUpdated"]
+depends-nominal:
+- "P12MovingHelper19TaskUpdatedDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "f587b84c546604de8b3cbbf9b7fce959"

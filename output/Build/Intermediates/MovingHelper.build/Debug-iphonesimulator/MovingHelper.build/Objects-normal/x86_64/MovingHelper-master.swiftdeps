@@ -1,0 +1,23 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "f4c5c9b6506330faffce30152f1cdb5a"
+build_time: [507824162, 721029000]
+inputs:
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Models/Task.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Extensions/UITableViewCellIdentifierExtension.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Models/LocalizedStrings.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Extensions/SafeDictionaryExtension.swift": [507814406, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Models/TaskUpdatedDelegate.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Extensions/StartOfDayNSDateExtension.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Models/TaskDueDate.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ModelControllers/TaskLoader.swift": [507809955, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Models/HelperEnums.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ModelControllers/TaskSaver.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ViewControllers/DetailViewController.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ModelControllers/SectionSplitter.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/AppDelegate.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Views/TaskSectionHeaderView.swift": [507809743, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Views/TaskTableViewCell.swift": [507814736, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Extensions/FileLoadingStringExtension.swift": [507809903, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ViewControllers/MasterViewController.swift": [507814726, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/Views/Checkbox.swift": [488845318, 0]
+  "/Users/mkon/Projects/MovingHelper/MovingHelper/ViewControllers/MovingDateViewController.swift": [507809743, 0]
