@@ -8,6 +8,7 @@ DerivedData
 ## Debug folder
 debug/
 
+
 #certificates
 scripts/certs/enterprise.cer
 scripts/certs/enterprise.p12
